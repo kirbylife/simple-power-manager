@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+cd /opt/simple-power-manager
+echo <<password>> | sudo -S ./simple-power-manager.py
